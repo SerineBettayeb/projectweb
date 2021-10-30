@@ -508,7 +508,105 @@ color: rgb(253, 251, 251);
     background-color: rgb(79, 133, 133);
     color: rgb(253, 251, 251);
     } 
+.homeServ{
+        margin-top: 75px;
+        height: auto;
+        min-height: 55vh;
+        display: flex;
+        align-items: center;
+        background:url(../images/serv.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    } 
+    
+    .homeServ{
+        height: 10px;
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .homeServ .content h3{
+        height: 70px;
+        font-size: 5.5rem;
+        color: white;
+    }
+    .homeServ .content h3{
+        height: 70px;
+        font-size: 5.5rem;
+        color: white;
+    }
 
+    .homeServ .content h3::selection{
+        background-color: rgb(79, 133, 133);
+        color: rgb(253, 251, 251);
+        }
+    
+    .homeServ .content p::selection{
+        background-color: rgb(79, 133, 133);
+        color: rgb(253, 251, 251);
+        }
+    .homeServ .content p{
+        text-transform: none;
+        font-size: 2.5rem;
+        color: rgba(255, 255, 255, 0.973);
+    }
+    
+    .homeServ .content .chemin{
+        font-size: 1.75rem;
+    }
+    
+    .homeServ .content .chemin a{
+        color: white;
+        font-size: 1.75rem;
+    }
+
+    .homeAct{
+        margin-top: 75px;
+        height: auto;
+        min-height: 55vh;
+        display: flex;
+        align-items: center;
+        background:url(../images/accro.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    } 
+    
+    .homeAct{
+        height: 10px;
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .homeAct .content h3{
+        color: white;
+        height: 70px;
+        font-size: 5.5rem;
+    }
+    .homeAct .content h3::selection{
+        background-color: rgb(85, 96, 96);
+        color: rgb(253, 251, 251);
+        }
+    
+    .homeAct .content p{
+        color: white;
+        text-transform: none;
+        font-size: 2.5rem;
+    }
+    .homeAct .content p::selection{
+        background-color: rgb(79, 133, 133);
+        color: rgb(253, 251, 251);
+        }
+    
+    .homeAct .content .chemin{
+        font-size: 1.75rem;
+    }
+    
+    .homeAct .content .chemin a{
+        color: white;
+        font-size: 1.75rem;
+    }
 
 
 
