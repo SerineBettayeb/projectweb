@@ -610,9 +610,10 @@ color: rgb(253, 251, 251);
 
 
 .homeMuni{
-    margin-top: 75px;
+    margin-top: 93px;
+    min-height: 30vh;
     height: auto;
-    min-height: 55vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     background:url(../images/banner\ 2.jpeg) no-repeat;
