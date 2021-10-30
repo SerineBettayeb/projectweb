@@ -12,6 +12,7 @@
 </head>
 <body>
 <!-- TESTER LE CURSEUR  -->
+    <h1 id="haut">Titre de la page</h1>
     <div class="cursor"></div>
 
 
@@ -223,10 +224,17 @@
         <a href="https://fr-fr.facebook.com/ile.de.brehat" class="fab fa-facebook-f"></a>
         <a href="https://www.youtube.com/channel/UCKjtJqq0QdIYhCIgUOmA36Q" class="fab fa-youtube"></a>
     </div>
-
+<div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
 </section>
 
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        window.onscroll = function(ev) {
+            document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+        };
+    });
+</script>
+    
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
